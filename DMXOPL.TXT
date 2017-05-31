@@ -1,11 +1,11 @@
 ===========================================================================
-Archive Maintainer      : Move to Combos please
+Archive Maintainer      : Move to Music please, Replace previous version
 Advanced engine needed  : None
 Primary purpose         : No levels included
 ===========================================================================
-Title                   : DMXOPL v1.3
+Title                   : DMXOPL v1.4
 Filename                : DMXOPL.ZIP
-Release date            : May 30, 2017
+Release date            : May 31, 2017
 Author                  : ConSiGno
 Email Address           : consigno@soulsphere.org
 Misc. Author Info       : OPL Goddess.
@@ -36,7 +36,7 @@ Other files required    : None
 
 * Play Information *
 
-Game                    : Doom, Raven, Strife, Adventures Of Square
+Game                    : Doom, Raven, Strife, Adventures Of Square, Hacx
 Single Player           : Designed for
 Cooperative 2-4 Player  : Designed for
 Deathmatch 2-4 Player   : Designed for
