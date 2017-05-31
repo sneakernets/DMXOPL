@@ -1,9 +1,9 @@
 ===========================================================================
-Archive Maintainer      : Move to Music please, Replace previous version
+Archive Maintainer      : Move to Music please, Replace previous (again!)
 Advanced engine needed  : None
 Primary purpose         : No levels included
 ===========================================================================
-Title                   : DMXOPL v1.4
+Title                   : DMXOPL v1.5
 Filename                : DMXOPL.ZIP
 Release date            : May 31, 2017
 Author                  : ConSiGno
@@ -14,13 +14,18 @@ Description             : This is a GENMIDI patch for DMX for OPL2-OPL3 FM
                           synthesis. This patch aims to remedy the "weak"
                           default instruments to better match the Roland
                           Sound Canvas, most notably the SC-55 and SC-88.
+                          This version fixes all the issues in Registered
+                          Doom, Hacx, Strife, Raven, and Adventures of
+                          Square.
 
 Additional Credits to   : Wohlstand, Bisqwuit, Fraggle, Esselfortium, Jimmy,
                           The Fat Man, Diode Milliampere, Patchouli, Graf
                           Zahl, Randi, Fisk, Stewboy, Xaser, Minigunner,
                           Altazimuth, MTrop, Quasar, Glaice, BlastFrog,
                           Vogons Forums, AtariAge, NintendoAge, and John
-                          Chowning, the father of FM synthesis
+                          Chowning, the father of FM synthesis. Extra 
+                          Thanks to Doomworld Forums and the IRC/DISCORD 
+                          channels.
 ===========================================================================
 * What is included *
 
