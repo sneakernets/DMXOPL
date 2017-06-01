@@ -1,11 +1,11 @@
 ===========================================================================
-Archive Maintainer      : Move to Music please, Replace previous (again!)
+Archive Maintainer      : Move to Music please, Replace previous!
 Advanced engine needed  : None
 Primary purpose         : No levels included
 ===========================================================================
-Title                   : DMXOPL v1.5
+Title                   : DMXOPL v1.6
 Filename                : DMXOPL.ZIP
-Release date            : May 31, 2017
+Release date            : June 1, 2017
 Author                  : ConSiGno
 Email Address           : consigno@soulsphere.org
 Misc. Author Info       : OPL Goddess.
@@ -13,10 +13,10 @@ Misc. Author Info       : OPL Goddess.
 Description             : This is a GENMIDI patch for DMX for OPL2-OPL3 FM
                           synthesis. This patch aims to remedy the "weak"
                           default instruments to better match the Roland
-                          Sound Canvas, most notably the SC-55 and SC-88.
-                          This version fixes all the issues in Registered
-                          Doom, Hacx, Strife, Raven, and Adventures of
-                          Square.
+                          Sound Canvas, most notably the SC-55 and SC-88. 
+						  Recommended minimum setup for no note-cuts is 
+						  ZDoom 2.8.1 with MAME OPL2 emulator core, with 
+						  6 chips emulated.
 
 Additional Credits to   : Wohlstand, Bisqwuit, Fraggle, Esselfortium, Jimmy,
                           The Fat Man, Diode Milliampere, Patchouli, Graf
@@ -25,7 +25,7 @@ Additional Credits to   : Wohlstand, Bisqwuit, Fraggle, Esselfortium, Jimmy,
                           Vogons Forums, AtariAge, NintendoAge, and John
                           Chowning, the father of FM synthesis. Extra 
                           Thanks to Doomworld Forums and the IRC/DISCORD 
-                          channels.
+                          channels, Giest118, and Infurnus. YMF262 forever.
 ===========================================================================
 * What is included *
 
@@ -51,13 +51,16 @@ Difficulty Settings     : Not implemented
 
 * Construction *
 
-Base                    : Stock DMX GENMIDI (around 99% changed)
+Base                    : Stock DMX GENMIDI
 Build Time              : About 5 years
 Editor(s) used          : Hex Editors, OPL3 Bank Editor, Fraggle's Python
-                          scripts, Adlib Tracker II
-Known Bugs              : None
+                          scripts, Adlib Tracker II, Edlib, ADLMidi
+Known Bugs              : Due to the number of pseudo 4-op voices, certain 
+						  notes may cut sooner than they would have using 
+						  the stock patches. Most of Doom and Doom 2 play 
+						  just fine. 
 May Not Run With        : Recent dev builds of GZDoom have broken OPL
-                          support.
+                          support as of this writing.
 Tested With             : ZDoom 2.8.1, Chocolate Doom, Vanilla Doom
 
 
@@ -78,4 +81,4 @@ distribute your contributions under the same license as the original.
 * Where to get the file that this text file describes *
 
 The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
-Web sites: https://github.com/sneakernets/DMXOPL/releases/tag/v1.3
+Web sites: https://github.com/sneakernets/DMXOPL/
