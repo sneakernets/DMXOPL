@@ -14,9 +14,9 @@ Description             : This is a GENMIDI patch for DMX for OPL2-OPL3 FM
                           synthesis. This patch aims to remedy the "weak"
                           default instruments to better match the Roland
                           Sound Canvas, most notably the SC-55 and SC-88. 
-						  Recommended minimum setup for no note-cuts is 
-						  ZDoom 2.8.1 with MAME OPL2 emulator core, with 
-						  6 chips emulated.
+			  Recommended minimum setup for no note-cuts is
+			  ZDoom 2.8.1 with MAME OPL2 emulator core, with 
+			  6 chips emulated.
 
 Additional Credits to   : Wohlstand, Bisqwuit, Fraggle, Esselfortium, Jimmy,
                           The Fat Man, Diode Milliampere, Patchouli, Graf
@@ -25,7 +25,9 @@ Additional Credits to   : Wohlstand, Bisqwuit, Fraggle, Esselfortium, Jimmy,
                           Vogons Forums, AtariAge, NintendoAge, and John
                           Chowning, the father of FM synthesis. Extra 
                           Thanks to Doomworld Forums and the IRC/DISCORD 
-                          channels, Giest118, and Infurnus. YMF262 forever.
+                          channels, Giest118, Nukey, and Infurnus.
+			  YMF262 forever.
+			  
 ===========================================================================
 * What is included *
 
@@ -56,9 +58,9 @@ Build Time              : About 5 years
 Editor(s) used          : Hex Editors, OPL3 Bank Editor, Fraggle's Python
                           scripts, Adlib Tracker II, Edlib, ADLMidi
 Known Bugs              : Due to the number of pseudo 4-op voices, certain 
-						  notes may cut sooner than they would have using 
-						  the stock patches. Most of Doom and Doom 2 play 
-						  just fine. 
+			  notes may cut sooner than they would have using 
+			  the stock patches. Most of Doom and Doom 2 play 
+			  just fine. 
 May Not Run With        : Recent dev builds of GZDoom have broken OPL
                           support as of this writing.
 Tested With             : ZDoom 2.8.1, Chocolate Doom, Vanilla Doom
