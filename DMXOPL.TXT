@@ -3,9 +3,9 @@ Archive Maintainer      : Move to Music please, Replace previous!
 Advanced engine needed  : None
 Primary purpose         : No levels included
 ===========================================================================
-Title                   : DMXOPL v1.6
+Title                   : DMXOPL v1.7
 Filename                : DMXOPL.ZIP
-Release date            : June 1, 2017
+Release date            : June 12, 2017
 Author                  : ConSiGno
 Email Address           : consigno@soulsphere.org
 Misc. Author Info       : OPL Goddess.
@@ -25,8 +25,8 @@ Additional Credits to   : Wohlstand, Bisqwuit, Fraggle, Esselfortium, Jimmy,
                           Vogons Forums, AtariAge, NintendoAge, and John
                           Chowning, the father of FM synthesis. Extra 
                           Thanks to Doomworld Forums and the IRC/DISCORD 
-                          channels, Giest118, Nukey, and Infurnus.
-			  YMF262 forever.
+                          channels, Giest118, Nuke.YKT, kode54, Patch93,
+                          and Infurnus. YMF262 forever.
 			  
 ===========================================================================
 * What is included *
@@ -60,7 +60,10 @@ Editor(s) used          : Hex Editors, OPL3 Bank Editor, Fraggle's Python
 Known Bugs              : Due to the number of pseudo 4-op voices, certain 
 			  notes may cut sooner than they would have using 
 			  the stock patches. Most of Doom and Doom 2 play 
-			  just fine. 
+			  just fine. Depending on your CPU, there may be
+                          skips in the sound due to buffer underrun, as 
+                          this patch takes more channels than the stock
+                          GENMIDI.
 May Not Run With        : Recent dev builds of GZDoom have broken OPL
                           support as of this writing.
 Tested With             : ZDoom 2.8.1, Chocolate Doom, Vanilla Doom
