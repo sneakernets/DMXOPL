@@ -66,7 +66,7 @@ Known Bugs              : Due to the number of pseudo 4-op voices, certain
                           GENMIDI.
 May Not Run With        : Recent dev builds of GZDoom have broken OPL
                           support as of this writing.
-Tested With             : ZDoom 2.8.1, Chocolate Doom, Vanilla Doom
+Tested With             : ZDoom 2.8.1, Chocolate Doom, Vanilla Doom, ADLMidi
 
 
 * Copyright / Permissions *
