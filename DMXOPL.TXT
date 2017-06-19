@@ -3,9 +3,9 @@ Archive Maintainer      : Move to Music please, Replace previous!
 Advanced engine needed  : None
 Primary purpose         : No levels included
 ===========================================================================
-Title                   : DMXOPL v1.8
+Title                   : DMXOPL v1.8.2
 Filename                : DMXOPL.ZIP
-Release date            : June 18, 2017
+Release date            : June 19, 2017
 Author                  : ConSiGno
 Email Address           : consigno@soulsphere.org
 Misc. Author Info       : OPL Goddess.
@@ -13,10 +13,10 @@ Misc. Author Info       : OPL Goddess.
 Description             : This is a GENMIDI patch for DMX for OPL2-OPL3 FM
                           synthesis. This patch aims to remedy the "weak"
                           default instruments to better match the Roland
-                          Sound Canvas, most notably the SC-55 and SC-88. 
-			  Recommended minimum setup for no note-cuts is
-			  ZDoom 2.8.1 with MAME OPL2 emulator core, with 
-			  6 chips emulated.
+                          Sound Canvas, most notably the SC-55 and SC-88.
+                          Recommended minimum setup for no note-cuts is 
+                          ZDoom 2.8.1 with MAME OPL2 emulator core, 
+                          with 6 chips emulated.
 
 Additional Credits to   : Wohlstand, Bisqwuit, Fraggle, Esselfortium, Jimmy,
                           The Fat Man, Diode Milliampere, Patchouli, Graf
@@ -27,7 +27,7 @@ Additional Credits to   : Wohlstand, Bisqwuit, Fraggle, Esselfortium, Jimmy,
                           Thanks to Doomworld Forums and the IRC/DISCORD 
                           channels, Giest118, Nuke.YKT, kode54, Patch93,
                           and Infurnus. YMF262 forever.
-			  
+        
 ===========================================================================
 * What is included *
 
@@ -58,9 +58,9 @@ Build Time              : About 5 years
 Editor(s) used          : Hex Editors, OPL3 Bank Editor, Fraggle's Python
                           scripts, Adlib Tracker II, Edlib, ADLMidi
 Known Bugs              : Due to the number of pseudo 4-op voices, certain 
-			  notes may cut sooner than they would have using 
-			  the stock patches. Most of Doom and Doom 2 play 
-			  just fine. Depending on your CPU, there may be
+                          notes may cut sooner than they would have using 
+                          the stock patches. Most of Doom and Doom 2 play 
+                          just fine. Depending on your CPU, there may be
                           skips in the sound due to buffer underrun, as 
                           this patch takes more channels than the stock
                           GENMIDI.
