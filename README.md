@@ -34,7 +34,7 @@ All IWADs work.
 As far as I know, anything that supports DMX patches would be supported. If you want this included in your favorite OPL plugins, please let the authors know. I would be more than happy to see this patch included.
 
 ### I'd like to use this in my project.
-Go ahead, just give credit. My recommended string for plugins is "CSGOPL", "DMXOPL v1.7", or DMX(ConSiGno). DMX(Sneakernets) is also acceptable.
+Go ahead, just give credit. My recommended string for plugins is "DMXOPL", or "DMXOPL v1.8.2". DMXOPL(Sneakernets) is also acceptable.
 
 ### How can I help?
 Send a pull request.
