@@ -5,7 +5,7 @@ Primary purpose         : No levels included
 ===========================================================================
 Title                   : DMXOPL v1.11
 Filename                : DMXOPL.ZIP
-Release date            : [TBA]
+Release date            : August 22, 2017
 Author                  : ConSiGno
 Email Address           : consigno@soulsphere.org
 Misc. Author Info       : OPL Goddess.
