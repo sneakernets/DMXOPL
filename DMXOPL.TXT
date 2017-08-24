@@ -3,7 +3,7 @@ Archive Maintainer      : Move to Music please, Replace previous!
 Advanced engine needed  : None
 Primary purpose         : No levels included
 ===========================================================================
-Title                   : DMXOPL v2.0
+Title                   : DMXOPL v2.0a
 Filename                : DMXOPL.ZIP
 Release date            : August 24, 2017
 Author                  : ConSiGno
