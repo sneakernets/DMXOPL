@@ -3,20 +3,21 @@ Archive Maintainer      : Move to Music please, Replace previous!
 Advanced engine needed  : None
 Primary purpose         : No levels included
 ===========================================================================
-Title                   : DMXOPL v1.11
+Title                   : DMXOPL v2.0
 Filename                : DMXOPL.ZIP
-Release date            : August 22, 2017
+Release date            : August 24, 2017
 Author                  : ConSiGno
 Email Address           : consigno@soulsphere.org
 Misc. Author Info       : OPL Goddess.
 
-Description             : This is a GENMIDI patch for DMX for OPL2-OPL3 FM
+Description             : This is a GENMIDI patch for DMX for OPL2/3 FM
                           synthesis. This patch aims to remedy the "weak"
                           default instruments to better match the Roland
                           Sound Canvas, most notably the SC-55 and SC-88.
                           Recommended minimum setup for no note-cuts is 
-                          ZDoom 2.8.1 with MAME OPL2 emulator core, 
-                          with 6 chips emulated.
+                          ZDoom 2.8.1 with DOSBOX OPL3 emulator core, 
+                          with 6 chips emulated. See the README for
+                          additional details.
 
 Additional Credits to   : Wohlstand, Bisqwuit, Fraggle, Esselfortium, Jimmy,
                           The Fat Man, Diode Milliampere, Patchouli, Graf
@@ -38,7 +39,8 @@ Music                   : No
 Graphics                : No
 Dehacked/BEX Patch      : No
 Demos                   : No
-Other                   : GENMIDI patch
+Other                   : GENMIDI patches (DMXOPL2.WAD for OPL2,
+                          DMXOPL3.WAD for OPL3)
 Other files required    : None
 
 
@@ -65,7 +67,7 @@ Known Bugs              : Due to the number of pseudo 4-op voices, certain
                           skips in the sound due to buffer underrun, as 
                           this patch takes more channels than the stock
                           GENMIDI.
-May Not Run With        : Recent dev builds of GZDoom have broken OPL
+May Not Run With        : Recent dev builds of GZDoom have broken OPL3
                           support as of this writing.
 Tested With             : ZDoom 2.8.1, Chocolate Doom, Vanilla Doom, ADLMidi
 
