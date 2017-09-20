@@ -4470,8 +4470,8 @@ const adldata adl[4657] =
     { 0x116B1A2,0x117D160, 0x88,0x80, 0x7, +12 }, // 4451: skeakernetsM16; Hammond Organ
     { 0x025F7B0,0x0F6F596, 0x08,0x00, 0x7, +0 }, // 4452: skeakernetsM17; Percussive Organ
     { 0x025F770,0x0F6F415, 0x08,0x17, 0x7, +0 }, // 4453: skeakernetsM17; Percussive Organ
-    { 0x018AA70,0x0088AB1, 0x44,0x07, 0x4, +0 }, // 4454: skeakernetsM18; 
-    { 0x118AA70,0x0088AB1, 0x4B,0x07, 0x4, +12 }, // 4455: skeakernetsM18; 
+    { 0x018AA70,0x0088AB1, 0x44,0x0A, 0x4, +0 }, // 4454: skeakernetsM18; 
+    { 0x118AA70,0x0088AB1, 0x4B,0x0A, 0x4, +12 }, // 4455: skeakernetsM18; 
     { 0x1043030,0x1145431, 0x92,0x80, 0xD, +12 }, // 4456: skeakernetsM19; Church Organ
     { 0x1045033,0x1145430, 0x92,0x80, 0xB, +0 }, // 4457: skeakernetsM19; Church Organ
     { 0x025A721,0x1264132, 0x4D,0x05, 0x6, +0 }, // 4458: skeakernetsM21; Accordion
@@ -4487,9 +4487,9 @@ const adldata adl[4657] =
     { 0x132ED10,0x3E7D210, 0x87,0x05, 0x6, +12 }, // 4468: skeakernetsM27; * Electric Guitar (clean)
     { 0x332ED11,0x1E7D210, 0x80,0x40, 0x2, +12 }, // 4469: skeakernetsM27; * Electric Guitar (clean)
     { 0x0F4E430,0x0F5F330, 0x92,0x80, 0x8, +12 }, // 4470: skeakernetsM28; Electric Guitar (muted)
-    { 0x0F78111,0x3F7F054, 0x40,0x40, 0x8, +0 }, // 4471: skeakernetsM29; Overdriven Guitar               
-    { 0x0F78140,0x3F7F040, 0x40,0x00, 0xC, +14 }, // 4472: skeakernetsM29; skeakernetsM30; Overdriven Guitar               
-    { 0x0F78111,0x2F7F054, 0x40,0x40, 0xA, +0 }, // 4473: skeakernetsM30; Overdriven Guitar               
+    { 0x0F78111,0x3F7F054, 0x40,0x45, 0x8, +0 }, // 4471: skeakernetsM29; Overdriven Guitar               
+    { 0x0F78140,0x3F7F040, 0x40,0x05, 0xC, +14 }, // 4472: skeakernetsM29; skeakernetsM30; Overdriven Guitar               
+    { 0x0F78111,0x2F7F054, 0x40,0x45, 0xA, +0 }, // 4473: skeakernetsM30; Overdriven Guitar               
     { 0x6F78AE4,0x669B1F2, 0x03,0x03, 0xA, +12 }, // 4474: skeakernetsM31; * Guitar Harmonics              
     { 0x6F78AE4,0x669B1F2, 0x43,0x43, 0xA, +12 }, // 4475: skeakernetsM31; * Guitar Harmonics              
     { 0x0209220,0x0E6C130, 0x90,0x00, 0x0, +12 }, // 4476: skeakernetsM32; Acoustic Bass
@@ -4510,7 +4510,7 @@ const adldata adl[4657] =
     { 0x0848521,0x074C411, 0x69,0x07, 0xA, +0 }, // 4491: skeakernetsM45; 
     { 0x074A201,0x0356411, 0x29,0x07, 0xA, +0 }, // 4492: skeakernetsM45; 
     { 0x0F5F314,0x0F5F301, 0x6E,0x00, 0x4, +0 }, // 4493: skeakernetsM46; Orchestral Harp
-    { 0x4C7A601,0x0B3D210, 0x94,0x00, 0x8, +0 }, // 4494: skeakernetsM47; * Timpani
+    { 0x4C7A601,0x0B3D210, 0x94,0x09, 0x8, +0 }, // 4494: skeakernetsM47; * Timpani
     { 0x033F031,0x21554A0, 0xA6,0x03, 0xC, +0 }, // 4495: skeakernetsM48; 
     { 0x033F031,0x21565A0, 0xA6,0x03, 0xC, +0 }, // 4496: skeakernetsM48; 
     { 0x0059061,0x10555A1, 0x5B,0x85, 0x0, +0 }, // 4497: skeakernetsM49; String Ensemble 2
@@ -22816,7 +22816,7 @@ const struct adlinsdata adlins[4679] =
     // fades to 20% at infs, keyoff fades to 20% in infs.
     {4452,4453,  0, 1,    146,   146,0.203125 }, // 4534: skeakernetsM17; Percussive Organ
 
-    // Amplitude begins at  342.1, peaks 2786.8 at infs,
+    // Amplitude begins at  263.7, peaks 2148.8 at infs,
     // fades to 20% at infs, keyoff fades to 20% in infs.
     {4454,4455,  0, 1,   7180,  7180,0.156250 }, // 4535: skeakernetsM18; 
 
@@ -22856,11 +22856,11 @@ const struct adlinsdata adlins[4679] =
     // fades to 20% at infs, keyoff fades to 20% in infs.
     {4470,4470,  0, 0,    300,   300,0.000000 }, // 4544: skeakernetsM28; Electric Guitar (muted)
 
-    // Amplitude begins at 1762.0, peaks 2424.5 at infs,
+    // Amplitude begins at 1142.5, peaks 1572.2 at infs,
     // fades to 20% at infs, keyoff fades to 20% in -nans.
     {4471,4472,  0, 1,  40000,     0,-1.906250 }, // 4545: skeakernetsM29; Overdriven Guitar               
 
-    // Amplitude begins at 1717.2, peaks 2295.2 at infs,
+    // Amplitude begins at 1113.6, peaks 1488.4 at infs,
     // fades to 20% at infs, keyoff fades to 20% in -nans.
     {4473,4472,  0, 1,  40000,     0,-1.906250 }, // 4546: skeakernetsM30; Overdriven Guitar               
 
@@ -22928,7 +22928,7 @@ const struct adlinsdata adlins[4679] =
     // fades to 20% at infs, keyoff fades to 20% in infs.
     {4493,4493,  0, 0,    940,   940,0.000000 }, // 4562: skeakernetsM46; Orchestral Harp
 
-    // Amplitude begins at 1794.4, peaks 2981.8 at infs,
+    // Amplitude begins at  822.8, peaks 1367.3 at infs,
     // fades to 20% at infs, keyoff fades to 20% in infs.
     {4494,4494,  0, 0,    126,   126,0.000000 }, // 4563: skeakernetsM47; * Timpani
 
