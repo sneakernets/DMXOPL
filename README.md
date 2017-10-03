@@ -4,7 +4,7 @@ New and improved DMX GENMIDI for Doom and sourceports, taking full advantage of 
 
 
 ## Summary
-This is a GENMIDI patch for DMX for OPL3 FM synthesis. This patch aims to remedy the "weak" default instruments to better match the Roland Sound Canvas, most notably the SC-55 and SC-88. Recommended minimum setup for no note-cuts is  ZDoom 2.8.1 with DOSBOX OPL3 emulator core, with 6 chips emulated.
+This is a GENMIDI patch for DMX for OPL3 FM synthesis. This patch aims to remedy the "weak" default instruments to better match the Roland Sound Canvas, most notably the SC-55 and SC-88. Recommended minimum setup for no note-cuts is ZDoom 2.8.1 with DOSBOX OPL3 emulator core, with 6 chips emulated.
 
 
 # FAQ
@@ -27,10 +27,10 @@ Hex Editors, OPL3 Bank Editor, Fraggle's Python scripts, Adlib Tracker II, Edlib
 
 
 ### Will this run on Vanilla?
-Yes, but your **DMXOPTION** variables must be set.
+Yes, but your **DMXOPTION** variables must be set. There also may be note cuts on certain music selections, although this is very rare in the IWADs.
 
 ### YOU MISSED (X) SOUND!
-Only gunshot is the same. Sorry, kid!
+Pretty much every single sound has been replaced at this point. If there are any that haven't been changed, it's likely due to me not getting around to it, or not knowing about it. Since GENMIDI is a binary format, getting diffs on it is a pain, so I don't know which instruments are changed and what isn't. If you know a way to check for this, let me know!
 
 ### What IWAD works best?
 All IWADs work.
@@ -45,13 +45,13 @@ In the OPL3 sense, No.
 Because all soundfonts I've heard *stink* compared to the SC55, and to this day i'm not satisfied with the state of Sound Canvas soundfonts, or the software midi sequencers that claim to use them.
 
 ### Something doesn't sound quite right.
-All DMX implementations seem to differ from port to port and player to player. My patches are tested in Vanilla Doom, Chocolate Doom, and ZDoom 2.8.1. If you hear something different that you don't hear in those three ports, it is a bug that should be reported to the respective authors.
+All DMX implementations seem to differ from port to port and player to player. My patches are tested in Vanilla Doom, Chocolate Doom, and ZDoom 2.8.1. If you hear something different that you don't hear in those three ports, it is a bug that should be reported to the respective authors. However, some sounds may sound louder than others. This is due to the way DMX handles velocity on voices with maxed out volume, which has largely been addressed by now.
 
 ### I'd like to use this in my project.
-Go ahead, just give credit. My recommended string for plugins is "DMXOPL3", or "DMXOPL3 v2.0". DMXOPL3(Sneakernets) is also acceptable. Also, don't erase the original DMXOPL preset for this one - I'd love to see both included if possible!
+Go ahead, just give credit. My recommended string for plugins is "DMXOPL3", or "DMXOPL3 v2.x". "DMXOPL3 by Sneakernets" is also acceptable. Also, don't erase the original DMXOPL preset for this one - I'd love to see both included if possible!
 
 ### How can I help?
-Send a pull request. Contributing is easy, just follow the guide.
+Send a pull request. Submit your instrument as a OPLI format instrument in the "Contributions" directory.
 
 # Credits
 ***
@@ -70,7 +70,7 @@ Send a pull request. Contributing is easy, just follow the guide.
 * Stewboy, for the Ancient Aliens MIDIs to test
 * Xaser, who said this patch passes the "Angry Scientist test"
 * Minigunner, just because
-* Altazimuth, who claims it'll be in Eternity someday
+* Altazimuth, who claims it'll be in Eternity someday (this is now true)
 * MTrop
 * Quasar, for Eternity Engine
 * Glaice, for patch advice
@@ -81,11 +81,13 @@ Send a pull request. Contributing is easy, just follow the guide.
 * John Chowning, the father of FM synthesis. I hope he can hear this someday.
 
 ## Extra Thanks to:
-* Doomworld Forums and the IRC/DISCORD channels
+* Doomworld Forums and the respective IRC/DISCORD channels
+* The 4th Modulator DISCORD channels
 * Giest118, who installed Doom again to listen to this
 * Nuke.YKT, for testing this in Raptor, and for the Nuked OPL core
-* kode54, who will add this to Foobar2K plugin and Cog
-* Patch93, who inspired the new guitar patches
+* kode54, who added this to Cog and FB2K, thank you!
+* Patch93, who contributed various patches
+* OlPainless, who contributed various patches
 * Infurnus, for support
 * Leileilol, for support
 
