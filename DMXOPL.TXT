@@ -3,9 +3,9 @@ Archive Maintainer      : Move to Music please, Replace previous!
 Advanced engine needed  : None
 Primary purpose         : No levels included
 ===========================================================================
-Title                   : DMXOPL v2.6b
+Title                   : DMXOPL v2.7
 Filename                : DMXOPL.ZIP
-Release date            : October 11, 2017
+Release date            : October 13, 2017
 Author                  : ConSiGno
 Email Address           : consigno@soulsphere.org
 Misc. Author Info       : OPL Goddess.
@@ -27,7 +27,7 @@ Additional Credits to   : Wohlstand, Bisqwuit, Fraggle, Esselfortium, Jimmy,
                           Chowning, the father of FM synthesis. Extra 
                           Thanks to Doomworld Forums and the IRC/DISCORD 
                           channels, Giest118, Nuke.YKT, kode54, Patch93,
-                          GYRIDION, MovieMovies, Gali, Infurnus,
+                          GYRIDION, MovieMovies, Gali, Infurnus, papiezak,
                           and OlPainless.
                           YMF262 forever.
 
