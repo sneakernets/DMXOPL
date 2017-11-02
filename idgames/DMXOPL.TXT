@@ -41,7 +41,7 @@ Graphics                : No
 Dehacked/BEX Patch      : No
 Demos                   : No
 Other                   : GENMIDI patches (DMXOPL2.WAD for OPL2,
-                          DMXOPL3.WAD for OPL3)
+                          DMXOPL3.WAD for OPL3. DMXOPLV for OPL3 Vanilla)
 Other files required    : None
 
 
