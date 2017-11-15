@@ -3,9 +3,9 @@ Archive Maintainer      : Move to Music please, Replace previous!
 Advanced engine needed  : None
 Primary purpose         : No levels included
 ===========================================================================
-Title                   : DMXOPL v2.8
+Title                   : DMXOPL v2.9
 Filename                : DMXOPL.ZIP
-Release date            : November 2, 2017
+Release date            : November 15, 2017
 Author                  : ConSiGno
 Email Address           : consigno@soulsphere.org
 Misc. Author Info       : OPL Goddess.
