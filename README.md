@@ -39,7 +39,7 @@ All IWADs work.
 As far as I know, anything that supports DMX patches and OPL3 emulation would be supported. If you want this included in your favorite OPL3 plugins, please let the authors know. I would be more than happy to see this patch included.
 
 ### Will any instruments use 4-op?
-In the OPL3 sense, No.
+In the OPL3 sense, No, at least for GM sounds. XG and GS sounds (WOPL only) may be a different story. We'll just have to see.
 
 ### Why not just use a soundfont?
 Because all soundfonts I've heard *stink* compared to the SC55, and to this day i'm not satisfied with the state of Sound Canvas soundfonts, or the software midi sequencers that claim to use them.
@@ -52,6 +52,20 @@ Go ahead, just give credit. My recommended string for plugins is "DMXOPL3", or "
 
 ### How can I help?
 Send a pull request. Submit your instrument as a OPLI format instrument in the "Contributions" directory.
+
+# WOPL FAQ
+
+### What's the difference between the WOPL version and the DMX version?
+The main difference is with a few instruments that had to be tweaked to work with DMX. Most of these changes are negligible for General MIDI stuff. To hear what I intended DMXOPL to sound like in Doom, you'll have to wait for Eternity Engine's ADLMIDI support to be finalized.
+
+### Any plans for GS/XG support?
+Yes. This will take considerable time, and voices will be added as I come across them in my MIDI files. You can check the progress on those through the XG and GS branches that I will make (or have already made). As I think the GM set is solid enough now, save for just a handful of instruments, I can start work on the other banks.
+
+### Will the WOPL version be usable on any other FM chips?
+Depends on the chip, but more than likely the answer is *no*. YMF262 (and the OPL* family for that matter) operate differently than most of the other FM chips, and wouldn't likely transfer over to DX-7 or other instruments without considerable work, if they would work at all.
+
+### Is the best way to listen to this *really* through an emulator?
+Yes, unfortunately. Unless someone makes an FM chip that can handle 128+ channels, this is likely never to change. If you're using this in your music projects and you *still* want to use the real thing, I recommend recording one track at a time and throwing the result in your favorite DAW - just be sure to put a highpass filter set to a really low value (I recommend 5 Hz) to get rid of the offset garbage, lest your mix splatter like crazy.
 
 # Credits
 ***
@@ -88,7 +102,11 @@ Send a pull request. Submit your instrument as a OPLI format instrument in the "
 * kode54, who added this to Cog and FB2K, thank you!
 * Patch93, who contributed various patches
 * OlPainless, who contributed various patches
+* Papiezak, who contributed various of patches
 * Infurnus, for support
 * Leileilol, for support
+* MaliceX, for support
+* Kuschelmonster, for support
+* Anyone who makes music with this thing!
 
  YMF262 forever.
