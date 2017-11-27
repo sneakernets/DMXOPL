@@ -40,7 +40,7 @@ Music                   : No
 Graphics                : No
 Dehacked/BEX Patch      : No
 Demos                   : No
-Other                   : GENMIDI patch
+Other                   : GENMIDI patches (DMXOPLV.WAD for Vanilla)
 Other files required    : None
 
 
