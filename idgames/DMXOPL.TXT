@@ -10,7 +10,7 @@ Author                  : ConSiGno
 Email Address           : consigno@soulsphere.org
 Misc. Author Info       : OPL Goddess.
 
-Description             : This is a GENMIDI patch for DMX for OPL2/3 FM
+Description             : This is a GENMIDI patch for DMX for OPL3 FM
                           synthesis. This patch aims to remedy the "weak"
                           default instruments to better match the Roland
                           Sound Canvas, most notably the SC-55 and SC-88.
@@ -40,8 +40,7 @@ Music                   : No
 Graphics                : No
 Dehacked/BEX Patch      : No
 Demos                   : No
-Other                   : GENMIDI patches (DMXOPL2.WAD for OPL2,
-                          DMXOPL3.WAD for OPL3. DMXOPLV for OPL3 Vanilla)
+Other                   : GENMIDI patch
 Other files required    : None
 
 
