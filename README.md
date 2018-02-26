@@ -6,6 +6,19 @@ New and improved DMX GENMIDI for Doom and sourceports, taking full advantage of 
 ## Summary
 This is a GENMIDI patch for DMX for OPL3 FM synthesis. This patch aims to remedy the "weak" default instruments to better match the Roland Sound Canvas, most notably the SC-55 and SC-88. Recommended minimum setup for no note-cuts is ZDoom 2.8.1 with DOSBOX OPL3 emulator core, with 6 chips emulated.
 
+## How To Use in DOOM (Vanilla, DOS)
+**NOTE:** I'm assuming you use a Sound Blaster Pro 2, or SB16/AWE32/AWE64. The original Sound Blaster Pro won't work!
+1. Download `GENMIDI - Vanilla.op2`, rename it to `GENMIDI.op2`, and put that in your doom directory. *Do not name it anything else!!*
+2. Set up and save a batch file like this:
+   ```batch
+   @ECHO OFF
+   SET DMXOPTION=-opl3
+   doom -file GENMIDI.op2
+   PAUSE
+   ```
+   Feel free to add any additional files like PWADs if you want. It's just a file, after all.
+3. In `SETUP.EXE`, make sure the correct Sound Blaster is selected for your music card. I've been told Pro Audio Spectrum also works if    OPL3 can't be detected properly.
+4. Run your batch file. That's it!
 
 # FAQ
 ***
